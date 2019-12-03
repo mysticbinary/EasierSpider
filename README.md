@@ -32,18 +32,18 @@
 
 
 # 使用流程
-在根目录的app.py上编写你的爬虫，调用编写好的函数方便。
+在根目录的app.py上编写你的爬虫程序，调用编写好的函数完成你的功能即可。
 
 
 # 项目目录介绍
-- config 配置项目信息
-- download 下载的文件保存地方
-- logs 日志保存的地方，默认保存7日内
-- sonspider 子爬虫
+- config 项目配置
+- download 下载到的文件，保存在这个目录
+- logs 日志保存的地方，默认保存7日内的日志
+- sonspider 编写子爬虫目录
 - tools工具类
-    - alert.py 报警工具
+    - alert.py 报警、通信工具
     - common.py 常用工具
-    - file_tool.py 文件工具
+    - file_tool.py 文件操作工具
     - json_tool.py json操作工具
     - log.py 日志操作工具
     - mySQLdb.py mysql连接工具
